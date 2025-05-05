@@ -1,0 +1,40 @@
+{
+  "name": "Ntfy Server",
+  "version": "1.0.0",
+  "slug": "ntfy",
+  "description": "Ntfy Push Notification Self-Hosted Server",
+  "uart": true,
+  "url": "https://git.brr.tec.br/bruno.rossetto/ha-brr-addons/src/branch/main/ntfy",
+  "startup": "application",
+  "arch": ["amd64", "aarch64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "80/tcp": 9432
+  },
+  "ports_description": {
+    "80/tcp": "API tcp-listen port"
+  },
+  "options": {
+    "NTFY_ENABLE_LOGIN": true,
+    "NTFY_BASE_URL": "https://domain.tld",
+    "NTFY_CACHE_FILE": "/data/cache.db",
+    "NTFY_AUTH_FILE": "/data/auth.db",
+    "NTFY_AUTH_DEFAULT_ACCESS": "deny-all",
+    "NTFY_BEHIND_PROXY": true,
+    "NTFY_ATTACHMENT_CACHE_DIR": "/data/attachments"
+  },
+  "schema": {
+    "NTFY_ENABLE_LOGIN": "bool",
+    "NTFY_BASE_URL": "str",
+    "NTFY_CACHE_FILE": "str",
+    "NTFY_AUTH_FILE": "str",
+    "NTFY_AUTH_DEFAULT_ACCESS": "str",
+    "NTFY_BEHIND_PROXY": "bool",
+    "NTFY_ATTACHMENT_CACHE_DIR": "str"
+  },
+  "image": "git.brr.tec.br/bruno.rossetto/ntfy-server"
+}

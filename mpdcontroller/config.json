@@ -1,0 +1,30 @@
+{
+  "name": "MPD Controller",
+  "version": "latest",
+  "slug": "mpd_controller",
+  "description": "Use to control MPD Server",
+  "uart": true,
+  "url": "https://git.brr.tec.br/bruno.rossetto/ha-brr-addons/src/branch/main/mpdcontroller",
+  "startup": "application",
+  "arch": ["amd64", "aarch64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "3000/tcp": 9997
+  },
+  "ports_description": {
+    "3000/tcp": "API tcp-listen port"
+  },
+  "options": {
+    "MPD_HOST": null,
+    "MPD_PORT": 6600
+  },
+  "schema": {
+    "MPD_HOST": "str",
+    "MPD_PORT": "int"
+  },
+  "image": "git.brr.tec.br/bruno.rossetto/mpd-controller"
+}
