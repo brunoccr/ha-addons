@@ -36,5 +36,5 @@
     "NTFY_BEHIND_PROXY": "bool",
     "NTFY_ATTACHMENT_CACHE_DIR": "str"
   },
-  "image": "c.tsapp.dev/brunoccr/ntfy-server"
+  "image": "brunoccr/ntfy-server"
 }
