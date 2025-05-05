@@ -1,0 +1,34 @@
+{
+  "name": "Senac Collector Server",
+  "version": "1.0.2",
+  "slug": "senac",
+  "description": "Senac Collector Server",
+  "uart": true,
+  "url": "https://git.brr.tec.br/bruno.rossetto/ha-brr-addons/src/branch/main/senac",
+  "startup": "application",
+  "arch": ["amd64", "aarch64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "80/tcp": 3457
+  },
+  "ports_description": {
+    "80/tcp": "Console"
+  },
+  "options": {
+    "CRON_EXPRESSION": "*/10 * * * *",
+    "SENACS": "",
+    "NOTIFICATION_URL": "",
+    "DB_PATH": "/data"
+  },
+  "schema": {
+    "CRON_EXPRESSION": "str",
+    "SENACS": "str",
+    "NOTIFICATION_URL": "str",
+    "DB_PATH": "str"
+  },
+  "image": "git.brr.tec.br/bruno.rossetto/senac-scrapper-standalone"
+}
