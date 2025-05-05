@@ -36,5 +36,5 @@
     "NTFY_BEHIND_PROXY": "bool",
     "NTFY_ATTACHMENT_CACHE_DIR": "str"
   },
-  "image": "git.brr.tec.br/bruno.rossetto/ntfy-server"
+  "image": "c.tsapp.dev/brunoccr/ntfy-server"
 }
