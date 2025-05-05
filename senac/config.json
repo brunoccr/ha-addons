@@ -30,5 +30,5 @@
     "NOTIFICATION_URL": "str",
     "DB_PATH": "str"
   },
-  "image": "git.brr.tec.br/bruno.rossetto/senac-scrapper-standalone"
+  "image": "brunoccr/senac-collector"
 }

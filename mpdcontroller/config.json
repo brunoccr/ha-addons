@@ -26,5 +26,5 @@
     "MPD_HOST": "str",
     "MPD_PORT": "int"
   },
-  "image": "git.brr.tec.br/bruno.rossetto/mpd-controller"
+  "image": "brunoccr/ha-mpd-controller"
 }
