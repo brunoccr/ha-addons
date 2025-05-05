@@ -4,7 +4,7 @@
   "slug": "senac",
   "description": "Senac Collector Server",
   "uart": true,
-  "url": "https://git.brr.tec.br/bruno.rossetto/ha-brr-addons/src/branch/main/senac",
+  "url": "https://github.com/brunoccr/ha-addons/src/branch/main/senac",
   "startup": "application",
   "arch": ["amd64", "aarch64"],
   "boot": "auto",

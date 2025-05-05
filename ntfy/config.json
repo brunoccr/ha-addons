@@ -4,7 +4,7 @@
   "slug": "ntfy",
   "description": "Ntfy Push Notification Self-Hosted Server",
   "uart": true,
-  "url": "https://git.brr.tec.br/bruno.rossetto/ha-brr-addons/src/branch/main/ntfy",
+  "url": "https://github.com/brunoccr/ha-addons/src/branch/main/ntfy",
   "startup": "application",
   "arch": ["amd64", "aarch64"],
   "boot": "auto",

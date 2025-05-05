@@ -4,7 +4,7 @@
   "slug": "mpd_controller",
   "description": "Use to control MPD Server",
   "uart": true,
-  "url": "https://git.brr.tec.br/bruno.rossetto/ha-brr-addons/src/branch/main/mpdcontroller",
+  "url": "https://github.com/brunoccr/ha-addons/src/branch/main/mpdcontroller",
   "startup": "application",
   "arch": ["amd64", "aarch64"],
   "boot": "auto",
