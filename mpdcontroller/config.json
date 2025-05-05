@@ -1,6 +1,6 @@
 {
   "name": "MPD Controller",
-  "version": "latest",
+  "version": "1.0.0",
   "slug": "mpd_controller",
   "description": "Use to control MPD Server",
   "uart": true,
