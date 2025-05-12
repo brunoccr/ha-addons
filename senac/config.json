@@ -6,6 +6,7 @@
   "uart": true,
   "url": "https://github.com/brunoccr/ha-addons/src/branch/main/senac",
   "startup": "application",
+  "webui": "http://[HOST]:[PORT:3457]/notification/status",
   "arch": ["amd64", "aarch64"],
   "boot": "auto",
   "init": true,
@@ -22,13 +23,15 @@
     "CRON_EXPRESSION": "*/10 * * * *",
     "SENACS": "",
     "NOTIFICATION_URL": "",
-    "DB_PATH": "/data"
+    "DB_PATH": "/data",
+    "ENABLE_CONSOLE": true
   },
   "schema": {
     "CRON_EXPRESSION": "str",
     "SENACS": "str",
     "NOTIFICATION_URL": "str",
-    "DB_PATH": "str"
+    "DB_PATH": "str",
+    "ENABLE_CONSOLE": "bool"
   },
   "image": "brunoccr/senac-collector"
 }
