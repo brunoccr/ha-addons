@@ -1,6 +1,6 @@
 {
   "name": "Senac Collector Server",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "slug": "senac",
   "description": "Senac Collector Server",
   "uart": true,
