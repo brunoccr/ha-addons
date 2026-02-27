@@ -1,6 +1,6 @@
 {
   "name": "WAHA - Whatsapp API",
-  "version": "1.0.0",
+  "version": "latest",
   "slug": "waha",
   "description": "WAHA - Whatsapp API",
   "uart": true,
