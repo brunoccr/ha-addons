@@ -1,0 +1,23 @@
+{
+  "name": "WAHA - Whatsapp API",
+  "version": "1.0.0",
+  "slug": "waha",
+  "description": "WAHA - Whatsapp API",
+  "uart": true,
+  "url": "https://github.com/brunoccr/ha-addons/src/branch/main/whatsapp-api",
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:3000]",
+  "arch": ["amd64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "ports_description": {
+    "3000/tcp": "Documentation"
+  },
+  "image": "devlikeapro/waha"
+}
