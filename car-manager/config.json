@@ -28,5 +28,5 @@
   "schema": {
     "POCKET_BASE_URL": "str"
   },
-  "image": "ghcr.io/brunoccr/car-manager:v0.1.1"
+  "image": "ghcr.io/brunoccr/car-manager"
 }
