@@ -1,7 +1,7 @@
 {
   "name": "Car Manager",
   "version": "v0.1.1",
-  "slug": "car_manager",
+  "slug": "carmanager",
   "description": "Service to Manage Car expenses.",
   "uart": true,
   "url": "https://github.com/brunoccr/ha-addons/src/branch/main/car-manager",
