@@ -1,1 +1,29 @@
-
+{
+  "name": "Car Manager",
+  "version": "",
+  "slug": "car-manager",
+  "description": "Service to Manage Car expenses.",
+  "uart": true,
+  "url": "https://github.com/brunoccr/ha-addons/src/branch/main/car-manager",
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:3459]/",
+  "arch": ["amd64", "aarch64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "3000/tcp": 3459
+  },
+  "ports_description": {
+    "3000/tcp": "Server"
+  },
+  "options": {
+    "POCKET_BASE_URL": "",
+  },
+  "schema": {
+    "POCKET_BASE_URL": "str",
+  },
+  "image": ""
+}
