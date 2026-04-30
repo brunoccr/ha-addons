@@ -23,9 +23,13 @@
     "3000/tcp": "Server"
   },
   "options": {
+    "PORT": "3000",
+    "HOSTNAME": "0.0.0.0",
     "POCKET_BASE_URL": ""
   },
   "schema": {
+    "PORT": "str",
+    "HOSTNAME": "str",
     "POCKET_BASE_URL": "str"
   },
   "image": "ghcr.io/brunoccr/car-manager"
