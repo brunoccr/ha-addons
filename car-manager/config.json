@@ -1,13 +1,16 @@
 {
   "name": "Car Manager",
-  "version": "",
+  "version": "v0.1.1",
   "slug": "car-manager",
   "description": "Service to Manage Car expenses.",
   "uart": true,
   "url": "https://github.com/brunoccr/ha-addons/src/branch/main/car-manager",
   "startup": "application",
   "webui": "http://[HOST]:[PORT:3459]/",
-  "arch": ["amd64", "aarch64"],
+  "arch": [
+    "amd64",
+    "aarch64"
+  ],
   "boot": "auto",
   "init": true,
   "ingress": false,
@@ -25,5 +28,5 @@
   "schema": {
     "POCKET_BASE_URL": "str"
   },
-  "image": ""
+  "image": "ghcr.io/brunoccr/car-manager:v0.1.1"
 }
