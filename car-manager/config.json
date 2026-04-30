@@ -20,10 +20,10 @@
     "3000/tcp": "Server"
   },
   "options": {
-    "POCKET_BASE_URL": "",
+    "POCKET_BASE_URL": ""
   },
   "schema": {
-    "POCKET_BASE_URL": "str",
+    "POCKET_BASE_URL": "str"
   },
   "image": ""
 }
