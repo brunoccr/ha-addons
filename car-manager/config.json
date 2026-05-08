@@ -17,20 +17,12 @@
   "timeout": 30,
   "legacy": true,
   "ports": {
-    "3000/tcp": 3459
+    "3000/tcp": 3459,
+    "8090/tcp": 8090
   },
   "ports_description": {
-    "3000/tcp": "Server"
-  },
-  "options": {
-    "PORT": "3000",
-    "HOSTNAME": "0.0.0.0",
-    "POCKET_BASE_URL": ""
-  },
-  "schema": {
-    "PORT": "str",
-    "HOSTNAME": "str",
-    "POCKET_BASE_URL": "str"
+    "3000/tcp": "Frontend",
+    "8090/tcp": "Backend"
   },
   "image": "ghcr.io/brunoccr/car-manager"
 }
