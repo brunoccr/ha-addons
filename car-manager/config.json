@@ -1,6 +1,6 @@
 {
   "name": "Car Manager",
-  "version": "v1.0",
+  "version": "v1.0.1",
   "slug": "carmanager",
   "description": "Service to Manage Car expenses.",
   "uart": true,
