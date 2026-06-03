@@ -23,13 +23,15 @@
     "DB_DSN": null,
     "DOMAIN": null,
     "HTTP_WEBAPP_ENABLED": true,
-    "AUTH_JWT_SECRET": null
+    "AUTH_JWT_SECRET": null,
+    "HTTP_SSL_TERMINATED": true
   },
   "schema": {
     "DB_DSN": "str",
     "DOMAIN": "str",
     "HTTP_WEBAPP_ENABLED": "bool",
-    "AUTH_JWT_SECRET": "str"
+    "AUTH_JWT_SECRET": "str",
+    "HTTP_SSL_TERMINATED": "bool"
   },
   "image": "cortezaproject/corteza"
 }
