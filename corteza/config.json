@@ -1,0 +1,29 @@
+{
+  "name": "Corteza CRM",
+  "version": "2024.9.9",
+  "slug": "corteza",
+  "description": "The Corteza low-code platform lets you build and iterate CRM, business process and other structured data apps fast, create intelligent business process workflows and connect with almost any data source. All with the flexibility, freedom and control you get from a 100% open-source platform written on modern technologies maintained by Planet Crust, its founder.",
+  "uart": true,
+  "url": "https://github.com/cortezaproject/corteza",
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:3080]/",
+  "arch": ["amd64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "80/tcp": 3080
+  },
+  "ports_description": {
+    "80/tcp": "UI"
+  },
+  "options": {
+    "DB_DSN": null
+  },
+  "schema": {
+    "DB_DSN": "str"
+  },
+  "image": "cortezaproject/corteza"
+}
