@@ -20,10 +20,16 @@
     "80/tcp": "UI"
   },
   "options": {
-    "DB_DSN": null
+    "DB_DSN": null,
+    "DOMAIN": null,
+    "HTTP_WEBAPP_ENABLED": true,
+    "AUTH_JWT_SECRET": null
   },
   "schema": {
-    "DB_DSN": "str"
+    "DB_DSN": "str",
+    "DOMAIN": "str",
+    "HTTP_WEBAPP_ENABLED": "bool",
+    "AUTH_JWT_SECRET": "str"
   },
   "image": "cortezaproject/corteza"
 }
