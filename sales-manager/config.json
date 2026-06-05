@@ -1,0 +1,28 @@
+{
+  "name": "Sales Manager",
+  "version": "v0.0.1",
+  "slug": "salesmanager",
+  "description": "Service to Sales Manager.",
+  "uart": true,
+  "url": "https://github.com/brunoccr/ha-addons/src/branch/main/sales-manager",
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:3454]/",
+  "arch": [
+    "amd64",
+    "aarch64"
+  ],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "3000/tcp": 3454,
+    "8090/tcp": 8094
+  },
+  "ports_description": {
+    "3000/tcp": "Frontend",
+    "8090/tcp": "Backend"
+  },
+  "image": "ghcr.io/brunoccr/sales-manager"
+}
