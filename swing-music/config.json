@@ -19,5 +19,11 @@
   "ports_description": {
     "1970/tcp": "UI"
   },
+  "options": {
+    "SWINGMUSIC_DEVICE_NAME": "swing-music-server"
+  },
+  "schema": {
+    "SWINGMUSIC_DEVICE_NAME": "str"
+  },
   "image": "ghcr.io/swingmx/swingmusic"
 }
