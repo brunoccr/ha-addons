@@ -1,0 +1,23 @@
+{
+  "name": "Swing Music",
+  "version": "v2.1.13",
+  "slug": "swing-music",
+  "description": "Swing Music is a blazingly fast and beautiful, self-hosted music streaming server. Like a cooler Spotify ... but bring your own music.",
+  "uart": true,
+  "url": "https://github.com/swingmx/swingmusic",
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:1970]/",
+  "arch": ["amd64", "aarch64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "1970/tcp": 1970
+  },
+  "ports_description": {
+    "1970/tcp": "UI"
+  },
+  "image": "ghcr.io/swingmx/swingmusic"
+}
