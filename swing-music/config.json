@@ -25,5 +25,6 @@
   "schema": {
     "SWINGMUSIC_DEVICE_NAME": "str"
   },
+  "map": ["media"],
   "image": "ghcr.io/swingmx/swingmusic"
 }
