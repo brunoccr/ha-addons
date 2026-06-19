@@ -1,1 +1,23 @@
-
+{
+  "name": "Image Compressor",
+  "version": "v1.0.0",
+  "slug": "imagecompressor",
+  "description": "Service compress Images.",
+  "uart": true,
+  "url": "https://github.com/brunoccr/ha-addons/src/branch/main/image-compressor",
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:3030]/",
+  "arch": ["amd64", "aarch64"],
+  "boot": "auto",
+  "init": true,
+  "ingress": false,
+  "timeout": 30,
+  "legacy": true,
+  "ports": {
+    "3000/tcp": 3030
+  },
+  "ports_description": {
+    "3000/tcp": "API"
+  },
+  "image": "ghcr.io/brunoccr/image-compressor"
+}
