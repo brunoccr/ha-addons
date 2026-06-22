@@ -1,6 +1,6 @@
 {
   "name": "Image Compressor",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "slug": "imagecompressor",
   "description": "Service compress Images.",
   "uart": true,
